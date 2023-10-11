@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from "./logo.svg";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home/Home";
@@ -15,17 +15,17 @@ function App() {
   }
   return (
     <Router>
-    <div className="grid-container">
-        <link rel="stylesheet" href="style.css" />
-        <title>Emerald Tiger</title>
-
-    <body>
-      <div>
-        <header className="header">
-            <div className="brand">
-                <button onClick={openMenu}>&#9776;</button>
-                <a href="index.html">Blue Ink Web</a>
-            </div>
+        <div className="grid-container">
+            <link rel="stylesheet" href="style.css" />
+            <title>Emerald Tiger</title>
+            
+            <body>
+                <div>
+                    <header className="header">
+                        <div className="brand">
+                            <button onClick={openMenu}>&#9776;</button>
+                            <a href="index.html">Blue Ink Web</a>
+                        </div>
             <div className="header-links">
                 <Link to="/">Home</Link>
                 <Link to="/Catalog">Catalog</Link>
