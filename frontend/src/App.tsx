@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home/Home";
 import Products from "./Products/Products";
+import { Form } from 'react-router-dom';
 
 function App() {
   const openMenu = () => {
@@ -58,6 +59,5 @@ function App() {
     </Router>
   );
 }
-import { Form } from 'react-router-dom';
 
 export default App;
