@@ -17,7 +17,7 @@ function App() {
     <Router>
         <div className="grid-container">
             <link rel="stylesheet" href="style.css" />
-            <title>Emerald Tiger</title>
+            <title>Blue Ink</title>
             
             <body>
                 <div>
@@ -58,6 +58,5 @@ function App() {
     </Router>
   );
 }
-import { Form } from 'react-router-dom';
 
 export default App;
