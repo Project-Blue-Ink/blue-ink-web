@@ -7,6 +7,7 @@ import Products from "./Products/Products";
 import { Form } from 'react-router-dom';
 import Orders from "./Orders/Orders";
 import OrderDetail from './Orders/OrderDetail';
+import Payment from './Payment/Payment';
 
 function App() {
   const openMenu = () => {
@@ -32,7 +33,8 @@ function App() {
             <div className="header-links">
                 <Link to="/">Home</Link>
                 <Link to="/Catalog">Catalog</Link>
-                <Link to="/orders"><Orders /></Link>
+                <Link to="/orders">Orders</Link>
+                <Link to="payment">Payment</Link>
             </div>
         </header>
         <aside className="sidebar">
@@ -53,6 +55,7 @@ function App() {
                 <Route path="/catalog" element={<Products />} />
                 <Route path="orders" element={<Orders />}></Route>
                 <Route path="/order/:id" element={<OrderDetail />}></Route>
+                <Route path="payment" element={<Payment />}></Route>
             </Routes>
         </main>
         <footer className="footer">

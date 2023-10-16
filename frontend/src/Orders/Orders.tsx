@@ -35,7 +35,7 @@ function Orders() {
                     <td>{order.isDelivered.toString()}</td> 
                     <td>{order.deliveredDate}</td> 
                     <td>
-                        <Link to={"/order/" + order. _id} className= "button secondary">
+                        <Link to={"/order/" + order._id} className="button secondary">
                             Details
                         </Link>
                     </td> 
