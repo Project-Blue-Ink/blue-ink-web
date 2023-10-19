@@ -161,6 +161,11 @@ tbody > tr:nth-child(odd) {
   border-top: 0.3rem #f08000 solid;
   color: #f08000;
 }
+
+.notFulfilled {
+  color: #ff0000;
+}
+
 .form {
   display: flex;
   justify-content: center;
