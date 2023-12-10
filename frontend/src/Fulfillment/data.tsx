@@ -1,4 +1,4 @@
-export default {
+const data = {
     fulfillment: [{
         _id: 1,
         createdAt: '02/20/2021',
@@ -70,3 +70,5 @@ export default {
     },
     ]
 }
+
+export default data;

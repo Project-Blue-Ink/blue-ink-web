@@ -1,4 +1,4 @@
-export default {
+const data = {
     orders: [{
         _id: 1,
         createdAt: '02/20/2021',
@@ -36,3 +36,5 @@ export default {
         deliveredDate: null,
     }]
 }
+
+export default data;
